@@ -1,0 +1,335 @@
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 5%;
+    background-color: white;
+  }
+  
+  .logo {
+    margin-right: auto;
+  }
+  
+  .nav__links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav__links a,
+  .cta,
+  .overlay__content a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+  
+  .nav__links li {
+    padding: 0px 20px;
+  }
+  
+  .nav__links li a {
+    transition: all 0.3s ease 0s;
+  }
+  
+  .nav__links li a:hover {
+    color: #0088a9;
+  }
+  
+  .cta {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .cta:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+  }
+
+  img {
+      max-width: 90%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+    .hero {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/piggy-bank.jpg");
+            height: 100vh;
+            width: 100vw;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: relative;
+    }
+
+ body {
+    font-family: "Arial";
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-section {
+    box-sizing: border-box;
+    padding-top: 0;
+    position: relative;
+    flex-direction: column;
+    height: 40%;
+    justify-content: center;
+    background-color: white;
+  }
+
+  .title h1 {
+    font-size: 10 rem;
+    margin: 10;
+    max-width: 700px;
+    position:absolute
+  }
+
+  .title h3 {
+    font-size: 20px;
+    margin: 80;
+    max-width: 500px;
+    position:absolute;
+  }
+
+  .container {
+      background-color: white;
+      margin: 40;
+      padding: 150px;
+      padding-left: 170;
+      padding-right: 170;
+      font-size: 10 rem;
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      line-height: 30px;
+    }
+
+    .subscribecta {
+        align-items: center;
+        padding: 25px 35px;
+        background-color: blue;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        box-shadow: 0px 0px 0px 2px #9fb4f2;
+            background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+            background-color:#7892c2;
+            border-radius:10px;
+            border:1px solid #4e6096;
+            display:inline-block;
+            cursor:pointer;
+            color:#ffffff;
+            font-family:Arial;
+            font-size:19px;
+            padding: 6px 37px;
+            text-decoration:none;
+            text-shadow:0px 1px 0px #283966;
+             background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+            background-color:#476e9e;
+           margin: 2rem;
+            
+      }
+    
+      
+      .card1 {
+        background-color: slategrey;
+        border-color: rgb(2, 2, 3);
+        box-shadow: 1px;
+        border-style: solid;
+        padding-top: 24px;
+        padding-left: 6px;
+        padding-right: 6px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        border-radius: 25px;
+       }
+
+       .card2 {
+        background-color: royalblue;
+        border-color: rgb(13, 13, 15);
+        box-shadow: 1px;
+        border-style: solid;
+        padding-top: 24px;
+        padding-left: 6px;
+        padding-right: 6px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        border-radius: 25px;
+       }
+
+       .card3 {
+        background-color: purple;
+        border-color: rgb(7, 7, 7);
+        box-shadow: 1px;
+        border-style: solid;
+        padding-top: 24px;
+        padding-left: 6px;
+        padding-right: 6px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        border-radius: 25px;
+       }
+
+       .yourmusic {
+            font-size: 2rem;
+           text-align: center;
+           margin-top:15%;
+           margin-bottom: 20px
+       }
+       
+       .upgrade {
+           font-size: 1rem;
+           color: slategrey;
+           margin-top: 1rem;
+       }
+       .container2 {
+        background-color: white;
+        padding: 160px;
+        padding-left: 170;
+        padding-right: 170;
+        font-size: 10 rem;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 1rm;
+        border-style: none;
+       }
+
+       .stream {
+           padding-bottom: 1rem;
+           font-size: 20px;
+       }
+
+       .stream1 {
+          font-size: small;
+       }
+
+       .about-section {
+        position: relative;
+        width: 100%;
+        max-height: 600px;
+    }
+    
+    .about-section img.about {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    
+    .about-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .info-block {
+        width: 150px;
+        margin: 10px;
+    }
+    
+    .icon {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+    
+       .artists1 {
+        font-size: 1rem;
+           color: slategrey;
+           margin-top: 1rem;
+    }
+    
+    .artists {
+        font-size: 2rem;
+           text-align: center;
+           margin-bottom: 20px
+    }
+
+    .album-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+       .album {
+           display: flex;
+           padding: 40px
+       }
+
+    footer {
+        background-color: darkgrey;
+        margin-top: 10%;
+        padding: 20px 5%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+  
+    .logo1 {
+        margin-right: auto;
+     }
+
+     .facebook {
+         margin: .1rem;
+     }
+
+     .main-section {
+         position:relative;
+         text-align: center
+     }
+     .herotext2 {
+         position: absolute;
+         bottom: 20px;
+         margin-left: 20%;
+         margin-bottom: -10%;
+        color: blanchedalmond;
+         font-weight: bold;
+         font-size: 300%;
+         
+     }
+
+     .herotext3 {
+        position: absolute;
+        bottom: 20px;
+        margin-left: -30%;
+        margin-bottom: -15%;
+       color: blanchedalmond;
+        font-weight: bold;
+        font-size: 100%;
+     }
+    
+     .button {
+         position: absolute;
+         bottom: -95%;
+         right: 60%;
+         border: 10px;
+         border-radius: 10px;
+         background-color: rgb(2, 2, 2);
+         padding: 9px 25px;
+         color: ivory;
+         cursor: pointer;
+        transition: all 0.3s ease 0s
+         
+     }
