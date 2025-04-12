@@ -1,8 +1,8 @@
 
-    
-   /* Mobile Nav */
   
-   .menu {
+  /* Mobile Nav */
+  
+  .menu {
     display: none;
   }
   
@@ -67,13 +67,12 @@
     }
      .container {
         display: inline-flex;
-        margin-left: .8%;
+        margin-left: 10%;
         margin-right: 10%;
         padding: 20% ;
         font-size: 1.5rem; 
         flex-direction: column;
         align-items: space-between;
-        ;
     }
         .container2 {
             display:inline-flex;
@@ -82,46 +81,14 @@
             
         }
 
-        .herotext2 {
-            position: absolute;
-            bottom: 20px;
-            margin-left: 10%;
-            margin-bottom: -10%;
-           color: blanchedalmond;
-            font-weight: bold;
-            font-size: 200%;
-        }
-
-        .herotext3 {
-            position: absolute;
-            bottom: 20px;
-            margin-left: -40%;
-            margin-bottom: -15%;
-           color: blanchedalmond;
-            font-weight: bold;
-            font-size: 100%;
-         }
-
-         .button {
-            position: absolute;
-            bottom: -55%;
-            right: 50%;
-            border: 10px;
-            border-radius: 10px;
-            background-color: rgb(2, 2, 2);
-            padding: 9px 25px;
-            color: ivory;
-            cursor: pointer;
-           transition: all 0.3s ease 0s
-            
-        }
-
-         
-            
-    
+    }
         
         
         span {
         font-size: .75rem;
     }
-  }
+    
+    
+   
+
+  
